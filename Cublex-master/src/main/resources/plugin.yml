@@ -1,0 +1,16 @@
+name: Cublex
+version: 1.0
+main: me.yuuns.cublex.Cublex
+api-version: 1.19
+authors: [Yuuns_, Anonymbd]
+depend: [ProtocolLib, Vault, RealisticSeasons, Citizens, PlaceholderAPI]
+loadbefore:
+  - Lands
+commands:
+  spawnlocation:
+    description: "Set spawn location"
+    usage: /spawnlocation
+    permission: cublex.spawn.set
+  spit:
+    description: "You can spit people"
+    usage: /spit
